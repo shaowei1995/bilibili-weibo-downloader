@@ -1,31 +1,70 @@
-# Built things
-_Debug/
-Compiled/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# AudioCache can be rebuilt from sources
-AudioCache/
+# C extensions
+*.so
 
-# Lockfile
-_OpenInEditor.lock
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
 
-# User settings
-Game.agf.user
-*.crm.user
+# PyInstaller
+*.manifest
+*.spec
 
-# Backups
-Game.agf.bak
-backup_acsprset.spr
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
-# Memory dumps
-*.dmp
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
+# Videos and downloads
+videos/
+downloads/
+*.mp4
+*.mkv
+*.avi
 
-# Log files
-warnings.log
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
